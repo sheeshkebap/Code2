@@ -1,4 +1,4 @@
-namespace linterTest {
+namespace LinterTest {
 
   interface Info {
     text: string;
