@@ -9,9 +9,10 @@ export namespace andi {
         } else {
             if (_score[1] > _score[0] + 40) {
                 return true
+            } else {
+                 return Math.random() < 0.5
             }
         }
-        // return Math.random() < 0.7
        }
     }
 }
